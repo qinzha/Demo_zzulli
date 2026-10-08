@@ -25,9 +25,9 @@ graph TD
     end
 
     %% External Systems
-    #Stripe["Stripe Payment Gateway"]
-    #SendGrid["SendGrid Email Service"]
-    #CDN["AWS S3 + CloudFront CDN"]
+    Stripe["Stripe Payment Gateway"]
+    SendGrid["SendGrid Email Service"]
+    CDN["AWS S3 + CloudFront CDN"]
 
     %% Connections
     Student -->|HTTPS| WebSPA
